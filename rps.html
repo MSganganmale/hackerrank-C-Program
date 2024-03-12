@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="rps.css" />
+  </head>
+  <body bgcolor="#FEC2D6">
+    <style> </style>
+    <h1>|| Rock Paper Scissors ||</h1>
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src="c:\Users\aksha\OneDrive\rock.png"/>
+      </div>
+      <div class="choice" id="paper">
+        <img src="c:\Users\aksha\OneDrive\paper.png"/>
+      </div>
+      <div class="choice" id="scissors">
+        <img src="c:\Users\aksha\OneDrive\scissor.png"/>
+      </div>
+    </div>
+
+    <div class="score-board">
+      <div class="score">
+        <p id="user-score">0</p>
+        <p>You</p>
+      </div>
+      <div class="score">
+        <p id="comp-score">0</p>
+        <p>Computer</p>
+      </div>
+    </div>
+
+    <div class="msg-container">
+      <p id="msg">Game starts now . Play your move</p>
+    </div>
+       <button id="button1" onclick="review()"><h3> Review </h3></button>
+       <button id="button2" onclick="restartGame()" > <h3> Restart </h3></button> 
+     
+       
+    <script src="rps.js"></script>
+  </body>
+</html>
